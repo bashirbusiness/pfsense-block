@@ -136,16 +136,7 @@
 # SECTION 2: URL PATTERN BLOCKING
 # ========================================
 
-# === YouTube Page Ads ===
-||www.google.*/pagead$domain=youtube.com
-||www.youtube.com/pagead
-||www.youtube.com/ptracking
 
-# === YouTube Ad Stats/Tracking ===
-||www.youtube.com/api/stats/ads
-||www.youtube.com/api/stats/atr
-||youtube.com/api/stats/qoe?
-||www.youtube.com/api/stats/playback$method=post
 
 # ========================================
 # SECTION 3: ELEMENT HIDING (COSMETIC FILTERS)
