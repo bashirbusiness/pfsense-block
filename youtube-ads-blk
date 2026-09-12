@@ -1,16 +1,4 @@
-# Title: NoYouTubeAds
-# Description: Comprehensive YouTube ad-blocking filter list for browser extensions (uBlock Origin, AdGuard Browser Extension, AdBlock Plus, Brave, etc.). Includes DNS-level rules, element hiding, cosmetic filters, and scriptlets.
-# Version: 20260322.1
-# Last Modified: 2026-03-22
-# Source: uBlock Origin uAssets, EasyList, GoodbyeAds, OISD, AdGuard Filters
-# License: MIT
-#
-# NOTE: This list contains advanced filtering rules including scriptlets and cosmetic filters.
-# For DNS-level blockers (AdGuard Home, Pi-hole), use NoYouTubeAdsDNS instead.
-#
-# ========================================
-# SECTION 1: DNS-LEVEL DOMAIN BLOCKING
-# ========================================
+
 
 # === Core Google Ad Domains ===
 ||2mdn.net^
@@ -19,7 +7,6 @@
 ||googlesyndication.com^
 ||googletagservices.com^
 ||googleadservices.com^
-||googleads.com^
 
 # === DoubleClick Subdomains ===
 ||ad.doubleclick.net^
@@ -132,32 +119,4 @@
 ||2mdn-cn.net^
 ||2mdnsys.com^
 
-# ========================================
-# SECTION 2: URL PATTERN BLOCKING
-# ========================================
 
-
-
-# ========================================
-# SECTION 3: ELEMENT HIDING (COSMETIC FILTERS)
-# ========================================
-
-# === Masthead/Homepage Ads ===
-youtube.com###masthead-ad
-youtube.com##.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer > #masthead-ad.ytd-rich-grid-renderer
-youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-rich-item-renderer > .ytd-ad-slot-renderer.style-scope
-
-# === Video Player Ads ===
-youtube.com##.video-ads
-youtube.com##.ytp-ad-progress-list
-youtube.com##.ytp-ad-module
-youtube.com##.ytp-ad-overlay-container
-youtube.com##.ytp-ad-text-overlay
-
-# === Ad Containers ===
-youtube.com##.ad-container
-youtube.com##.ad-container-renderer
-youtube.com##ytd-ad-slot-renderer
-youtube.com##ytd-display-ad-renderer
-youtube.com##ytd-promoted-sparkles-web-renderer
-youtube.com##ytd-promoted-video-renderer
