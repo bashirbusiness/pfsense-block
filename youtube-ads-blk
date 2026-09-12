@@ -5,8 +5,7 @@
 ||doubleclick.net^
 ||doubleclick.com^
 ||googlesyndication.com^
-||googletagservices.com^
-||googleadservices.com^
+
 
 # === DoubleClick Subdomains ===
 ||ad.doubleclick.net^
@@ -57,12 +56,6 @@
 # === YouTube Ad-Specific Subdomains ===
 ||ad.youtube.com^
 ||ads.youtube.com^
-
-# === Google Ad Services ===
-||pagead2.googleadservices.com^
-||partner.googleadservices.com^
-||adservice.google^
-||afs.googleadservices.com^
 
 # === Moat Ads (YouTube Analytics) ===
 ||moatads.com^
